@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Subsystems">
+      <UniqueIdentifier>{803689d6-790b-4e6f-b476-e021a37ed8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\UserInterface">
+      <UniqueIdentifier>{578c4000-c366-4a1e-958d-52821292904d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Graphics">
+      <UniqueIdentifier>{dc2d757e-9491-4f9f-8aab-e776a8fef2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CoreEngine">
+      <UniqueIdentifier>{edaf504a-7944-4cd9-9eaf-18494391f014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CoreEngine\EventSystem">
+      <UniqueIdentifier>{2f024dfc-6122-489f-b4a3-353b52718432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CoreEngine">
+      <UniqueIdentifier>{bb35be2c-b4b4-4c24-8bbc-b1ed0cc2ee40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubSystems">
+      <UniqueIdentifier>{d2f51bc0-a3aa-463e-bec0-dcb58d69eb18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubSystems\Graphics">
+      <UniqueIdentifier>{e61d1009-613c-4dfe-86bf-c12edef53db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubSystems\UserInterface">
+      <UniqueIdentifier>{e00bafbe-9d1c-4786-9c75-4630bf1db904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Audio">
+      <UniqueIdentifier>{7608058c-baa9-49ac-962f-57986e30373f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubSystems\Audio">
+      <UniqueIdentifier>{721ebffa-d818-4e63-9202-05ee79134f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\GameData">
+      <UniqueIdentifier>{e643515c-0996-4b2b-aea0-e1f75308f0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubSystems\GameData">
+      <UniqueIdentifier>{b1318efd-1075-4c4e-8b23-535957696e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Networking">
+      <UniqueIdentifier>{a1319e23-3cba-4dd1-aa8c-10bf23f90b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubSystems\Networking">
+      <UniqueIdentifier>{1b76acd2-09e8-4125-9bba-257480d7c27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubSystems\Entity">
+      <UniqueIdentifier>{d9ae4ce7-e37d-437a-9935-70fe94ac0a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Entity">
+      <UniqueIdentifier>{bdaf60a0-aade-4053-93e5-f4cbcab39a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubSystems\Physics">
+      <UniqueIdentifier>{52ba7a5d-149c-4e42-a836-b315803eaa1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystems\Physics">
+      <UniqueIdentifier>{679aa4ce-a48f-43ee-a895-490eec1b286c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\SubSystems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>Source Files\SubSystems\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\CoreEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files\SubSystems\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>Source Files\SubSystems\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking.cpp">
+      <Filter>Source Files\SubSystems\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="EntitySub.cpp">
+      <Filter>Source Files\SubSystems\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Subsystem.cpp">
+      <Filter>Source Files\SubSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardInput.cpp">
+      <Filter>Source Files\SubSystems\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\SubSystems\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Source Files\SubSystems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericObject.cpp">
+      <Filter>Source Files\SubSystems\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="LightEntity.cpp">
+      <Filter>Source Files\SubSystems\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityObject.cpp">
+      <Filter>Source Files\SubSystems\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Subsystems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Header Files\Subsystems\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\CoreEngine\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTypeEnum.h">
+      <Filter>Header Files\CoreEngine\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Subsystem.h">
+      <Filter>Header Files\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="SubsystemEnum.h">
+      <Filter>Header Files\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files\Subsystems\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Header Files\Subsystems\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Networking.h">
+      <Filter>Header Files\Subsystems\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityObject.h">
+      <Filter>Header Files\Subsystems\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntitySub.h">
+      <Filter>Header Files\Subsystems\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Header Files\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Interaction.h">
+      <Filter>Header Files\Subsystems\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardInput.h">
+      <Filter>Header Files\Subsystems\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files\Subsystems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Subsystems\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericObject.h">
+      <Filter>Header Files\Subsystems\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="LightEntity.h">
+      <Filter>Header Files\Subsystems\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+﻿  TestRotozoom.c
+TestRotozoom.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  TestRotozoom.vcxproj -> C:\Users\Ian\Downloads\301CR Renderer and UI Sample - SDL\301CR Renderer and UI Sample\SDL2_gfx-1.0.4\test\TestRotozoom\Win32\Debug\TestRotozoom.exe
+  Copy SDL2 and SDL2_gfx DLLs
+          1 file(s) copied.
+          1 file(s) copied.
+  .\sample16x16.bmp
+  .\sample24-box.bmp
+  .\sample24.bmp
+  .\sample2x2.bmp
+  .\sample3x3.bmp
+  .\sample8-box.bmp
+  .\sample8.bmp
+          7 file(s) copied.

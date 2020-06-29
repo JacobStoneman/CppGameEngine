@@ -1,0 +1,3 @@
+﻿SDL2_framerate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library Win32\Debug\SDL2_gfx.lib and object Win32\Debug\SDL2_gfx.exp
+  SDL2_gfx.vcxproj -> C:\Users\Ian\Downloads\301CR Renderer and UI Sample - SDL\301CR Renderer and UI Sample\SDL2_gfx-1.0.4\Win32\Debug\SDL2_gfx.dll

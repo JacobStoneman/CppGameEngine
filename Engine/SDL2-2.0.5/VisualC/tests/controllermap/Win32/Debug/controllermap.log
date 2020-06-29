@@ -1,0 +1,7 @@
+﻿  Copying axis.bmp
+  The system cannot find the file specified.
+  Copying button.bmp
+  The system cannot find the file specified.
+  Copying controllermap.bmp
+  The system cannot find the file specified.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(209,5): error MSB6006: "cmd.exe" exited with code 1.

@@ -1,0 +1,7 @@
+﻿  TestFramerate.c
+c:\users\ian\downloads\301cr renderer and ui sample - sdl\301cr renderer and ui sample\sdl2_gfx-1.0.4\test\testframerate.c(104): warning C4267: 'function': conversion from 'size_t' to 'Sint16', possible loss of data
+TestFramerate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  TestFramerate.vcxproj -> C:\Users\Ian\Downloads\301CR Renderer and UI Sample - SDL\301CR Renderer and UI Sample\SDL2_gfx-1.0.4\test\TestFramerate\Win32\Debug\TestFramerate.exe
+  Copy SDL2 and SDL2_gfx DLLs
+          1 file(s) copied.
+          1 file(s) copied.
